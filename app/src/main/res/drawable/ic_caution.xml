@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Stop sign (octagon, red, white border) -->
+    <!-- White border octagon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M7.32,2.93h9.36l4.39,4.39v9.36l-4.39,4.39H7.32l-4.39-4.39V7.32z"/>
+    <!-- Red inner octagon, centered -->
+    <path
+        android:fillColor="#D32F2F"
+        android:pathData="M8.82,5.83h6.36l3.09,3.09v6.36l-3.09,3.09H8.82l-3.09-3.09V8.92z"/>
+    <!-- Coin (gold circle, bottom right) -->
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M17.5,14a3.5,3.5 0 1,0 0,7a3.5,3.5 0 1,0 0,-7"/>
+    <!-- Coin detail (darker gold inner circle) -->
+    <path
+        android:fillColor="#FFC107"
+        android:pathData="M17.5,15.3a2.2,2.2 0 1,0 0,4.4a2.2,2.2 0 1,0 0,-4.4"/>
+</vector>

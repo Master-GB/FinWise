@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Bottom shadow layer -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#40000000"/>
+            <corners android:radius="12dp"/>
+        </shape>
+    </item>
+    <!-- Right shadow layer -->
+    <item android:right="8dp" android:bottom="5dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#30000000"/>
+            <corners android:radius="12dp"/>
+        </shape>
+    </item>
+    <!-- Main card background -->
+    <item android:right="8dp" android:bottom="8dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/white"/>
+            <corners android:radius="12dp"/>
+        </shape>
+    </item>
+</layer-list>

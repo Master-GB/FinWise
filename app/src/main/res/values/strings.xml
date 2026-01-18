@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FinWise</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="onboarding_title_1">Track Your Finances</string>
+    <string name="onboarding_subtitle_1">Easily record your income and expenses in one place</string>
+    <string name="home">Home</string>
+    <string name="analytics">Analytics</string>
+    <string name="transaction">Transaction</string>
+    <string name="categories">Categories</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="title_home">Home</string>
+    <string name="title_transactions">Transactions</string>
+    <string name="title_categories">Categories</string>
+    <string name="title_analytics">Analytics</string>
+    <string name="title_settings">Settings</string>
+</resources>
