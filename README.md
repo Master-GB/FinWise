@@ -1,6 +1,5 @@
 # FinWise - Personal Finance Manager
 
-![FinWise Logo](app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png)
 
 FinWise is a comprehensive personal finance management application designed to help users track their expenses, manage budgets, and gain valuable insights into their spending habits.
 
@@ -52,4 +51,35 @@ FinWise is a comprehensive personal finance management application designed to h
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/yourusername/FinWise.git](https://github.com/yourusername/FinWise.git)
+   git clone [https://github.com/Master-GB/FinWise.git]
+
+### 🏗 Project Structure
+   app/
+├── src/
+│   ├── main/
+│   │   ├── java/com/example/finwise_lab/
+│   │   │   ├── data/            # Data layer
+│   │   │   │   ├── local/       # Room database and DAOs
+│   │   │   │   ├── remote/      # API clients and data sources
+│   │   │   │   └── repository/  # Repository implementations
+│   │   │   │
+│   │   │   ├── di/              # Dependency injection modules
+│   │   │   ├── domain/          # Business logic and use cases
+│   │   │   ├── ui/              # UI components
+│   │   │   │   ├── theme/       # App theming
+│   │   │   │   ├── components/  # Reusable UI components
+│   │   │   │   └── screens/     # Feature screens
+│   │   │   │
+│   │   │   └── utils/           # Utility classes and extensions
+│   │   │
+│   │   └── res/                 # Resources
+│   │       ├── drawable/        # Vector assets
+│   │       ├── font/            # Custom fonts
+│   │       ├── navigation/      # Navigation graphs
+│   │       └── values/          # Colors, strings, styles
+│   │
+│   ├── test/                    # Unit tests
+│   └── androidTest/             # Instrumented tests
+│
+├── build.gradle                 # App level build configuration
+└── proguard-rules.pro           # ProGuard rules for release builds
