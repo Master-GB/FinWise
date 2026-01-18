@@ -53,7 +53,8 @@ FinWise is a comprehensive personal finance management application designed to h
    ```bash
    git clone [https://github.com/Master-GB/FinWise.git]
 
-### 🏗 Project Structure
+### Project Structure
+```
    app/
 ├── src/
 │   ├── main/
