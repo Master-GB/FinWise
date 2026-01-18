@@ -52,6 +52,9 @@ FinWise is a comprehensive personal finance management application designed to h
 1. Clone the repository:
    ```bash
    git clone [https://github.com/Master-GB/FinWise.git]
+2. Open the project in Android Studio
+3. Sync project with Gradle files
+4. Build and run the app on an emulator or physical device
 
 ### Project Structure
 ```
